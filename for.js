@@ -53,7 +53,7 @@ console.log("🚀 ~ filterNames:", filterNames);
 const findNames = names.find((name) => name.length >= 5);
 console.log("🚀 ~ findNames:", findNames);
 
-// some/every: 배열안의 요소들 중 조건을 만족하는지에 대한 bool 리턴 
+// some/every: 배열안의 요소들 중 조건을 만족하는지에 대한 bool 리턴  
 const someNames = names.some((name) => name.length >= 5);
 console.log("🚀 ~ someNames:", someNames);
 
